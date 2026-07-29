@@ -11,3 +11,13 @@ A hardware-description Verilog implementation of a deterministic ADC data acquis
 ## Tech Stack Used
 * **Language:** Verilog HDL
 * **Tools:** Icarus Verilog, GTKWave, MATLAB
+
+A Verilog implementation of an ADC data acquisition engine with a UART transmitter. Built and simulated using Icarus Verilog.
+
+## Files in this repository:
+* **main.v**: The core Verilog design (FSM for ADC timing and UART serial transmitter).
+* **test.v**: The testbench used to simulate a clock signal and verify the timing logic.
+
+## Tech Stack
+* **Language:** Verilog HDL
+* **Tools:** Icarus Verilog, GTKWave
